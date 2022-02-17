@@ -1,13 +1,92 @@
-/* HEADER */
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
 
+/* HEADER */
+header nav *{
+    display: flex;
+    float: left;
+    height: 45px;
+    padding-right: 33.7px;
+    background-color: white;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
 
 /* MAIN */
 .background_img {
+    padding-top: 50px;
     background-image: url(./imgs/cover.png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 65rem;
+}
+
+main {
+    text-align: left;
+    padding-left: 15%;
+    padding-top: 30%;
+}
+
+main h1 {
+    font-size: 60px;
+}
+
+.btn{
+    margin-bottom: 7%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    width: 200px;
+    text-align: center;
+    border: 0px solid transparent;
+    font-size: 15px;
+    font-weight: 300;
+}  
+
+main section {
+    background-color: black;
+    width: 200px;
+    height: 250px;
+    color: white;
+    text-align: left;
+    padding: 5% 3% 25px 3%;
+}
+
+.btntwo{
+    margin-bottom: 7%;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 15px 15px;
+    width: 170px;
+    text-align: center;
+    border: 0px solid transparent;
+    font-size: 15px;
+    font-weight: 300;
+}  
+
+.spanto {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* SECTION 1 */
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 80% 20%;
+    text-align: center;
+    gap: 40px;
+    padding-bottom: 2em;
+    margin-left: 25%
 }
 
 /* SECTION 4 */
