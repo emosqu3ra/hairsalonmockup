@@ -96,18 +96,7 @@ main section {
     margin-left: 25%
 }
 
-/* SECTION 4 */
-.background_imgtwo {
-    background-image: url(./imgs/10hairofflayout.png);
-    background-repeat: no-repeat;
-    background-position: relative;
-    background-size: cover;
-    width: 100%;
-    height: 25rem;
-}
-
 /* SECTION 2 */
-
 .onehalf {
     float:left; 
     background:rgb(232, 234, 231);
@@ -132,20 +121,55 @@ h2 {
     justify-content: center;
 }
 
-/* SECTION 3 */
+/* STYLIST */
 
-/* SECTION 4 */
-
-.background_imgtwo {
-    padding: 5%;
+.gridtwo {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr;
+    text-align: center;
+    gap: 10px;
+    width: 60%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
 }
 
+.text-over {
+    background: black;
+    color: white;
+    padding: 1px;
+}
+
+/* SECTION 3 */
 h3 {
     text-align: center;
     font-weight: bolder;
     font-size: xx-large;
-    bottom-border: 1px solid black;
 }
+
+/* SECTION 4 */
+.background_imgtwo {
+    background-image: url(./imgs/10hairofflayout.png);
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+    width: 95.5%;
+    height: 27rem;
+    padding-top: 15%;
+    text-align: left;
+    padding-left:4.5%;
+}
+
+/* SECTION 5 */
+
+img {
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+
 
 /* MEDIA QUERY **********************************/
 
