@@ -214,7 +214,7 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    body, html  {
+    body, html, .background_imgtwo  {
         margin: 0;
         padding: 0;
     }
@@ -238,24 +238,28 @@ footer {
 
     .background_img {
         margin: 0;
-        height: 50rem;
         padding: 0;
+        height: 50rem;
     }
 
     .first {
         margin-left: 25%;
     }
 
+    main h1 {
+        font-size: 50px;
+    }
+
     .brown {
         color: rgb(232, 234, 231);
         padding-left: 20px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     /* NAVIGATION */
 
     /* Style the navigation menu */
-.topnav {
+  .topnav {
     overflow: hidden;
     background-color: black;
     position: relative;
@@ -306,6 +310,11 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+
+    .experts, .quality, .products {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     /* MAKE YOUR OWN */
@@ -362,17 +371,4 @@ footer {
         font-size: 28px;
     }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media all and ( min-width: 600px) 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
 
