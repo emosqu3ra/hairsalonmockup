@@ -221,7 +221,6 @@ footer {
 
     .background_img, .background_imgtwo {
         width: 100%;
-        padding: 0;
     }
 
     .btn {
@@ -230,9 +229,16 @@ footer {
 
     /* HEADER */
 
+    header {
+        padding: 0;
+        margin: 0;
+        height: 0px;
+        background-color: rgb(232, 234, 231);
+    }
+
     .background_img {
         margin: 0;
-        height: 45rem;
+        height: 50rem;
         padding: 0;
     }
 
@@ -243,17 +249,16 @@ footer {
     .brown {
         color: rgb(232, 234, 231);
         padding-left: 20px;
+        padding-top: 10px;
     }
 
     /* NAVIGATION */
-    
-        /* Style the navigation menu */
+
+    /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: rgb(232, 234, 231);
+    background-color: black;
     position: relative;
-    margin: 0;
-    padding: 0;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -272,8 +277,7 @@ footer {
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: white;
-    color: black;
+    background: black;
     display: block;
     position: absolute;
     right: 0;
@@ -288,7 +292,7 @@ footer {
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: white;
+    background-color: black;
     color: white;
   }
 
