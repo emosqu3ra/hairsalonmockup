@@ -6,32 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Salon Mock Up</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <!-- HEADER AND NAV -->
     <header>
-        <nav>
-            <img src="imgs/logo.png" alt=logo width=90px height=40px>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">LOOKBOOK</a></li>
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">BOOK ONLINE</a></li>
-            </ul>
-        </nav>
+        <div class="topnav">
+            <a href="#home" class="active">BLK MAGIC SALON</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICES</a>
+                <a href="#">LOOKBOOK</a>
+                <a href="#">NEWS</a>
+                <a href="#">CONTACT</a>
+                <a href="#">BOOK ONLINE</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
     </header>
 
     <!-- MAIN -->
     <main class="background_img">
-        <h1>BLACK <br> & BROWN <br> HIGHLIGHT</h1>
-        <p>DIVIDE YOUR UNIQUENESS BY YOUR HAIR IN STYLE</p>
+        <h1 class="brown">BLACK <br> & BROWN <br> HIGHLIGHT</h1>
+        <p class="brown">DIVIDE YOUR UNIQUENESS BY YOUR HAIR IN STYLE</p>
         <a><button class="btn">- OUR SERVICES</button></a>
 
-        <section>
+        <section class="first">
             <span>YOUR FIRST VISIT</span> <br><br><br>
             <span><span class="spanto">- 20% </span>FOR THE FIRST <BR><br> CLASSING HAIR COLOR</span>
             <a><button class="btntwo">- BOOK ONLINE</button></a>
@@ -78,8 +84,8 @@
     <section>
         <div class="container"></div>
             <div class="onehalf"><br><br><br>
-                <h2>MAKE YOUR OWN MOMENTUM</h2>
-                <p>Elit aliqua consequat occaecat in fugiat commodo nostrud. Fugiat consectetur sit sunt laborum ipsum eu est laboris amet. Irure exercitation dolore reprehenderit in voluptate. Adipisicing magna nulla eiusmod eu. Elit aliqua consequat occaecat in fugiat commodo nostrud. Fugiat consectetur sit sunt laborum ipsum eu est laboris amet. Irure exercitation dolore reprehenderit in voluptate. Adipisicing magna nulla eiusmod eu.</p>
+                <h2 class="moment">MAKE YOUR OWN MOMENTUM</h2>
+                <p class="moment">Elit aliqua consequat occaecat in fugiat commodo nostrud. Fugiat consectetur sit sunt laborum ipsum eu est laboris amet. Irure exercitation dolore reprehenderit in voluptate. Adipisicing magna nulla eiusmod eu. Elit aliqua consequat occaecat in fugiat commodo nostrud. Fugiat consectetur sit sunt laborum ipsum eu est laboris amet. Irure exercitation dolore reprehenderit in voluptate. Adipisicing magna nulla eiusmod eu.</p>
                 <a><button class="btn">- READ MORE</button></a>
             </div>    
       
@@ -93,7 +99,7 @@
     <section>
         <div class="gridtwo">
             <div class="colourist">
-                <img class="team" src="imgs/hairstylistone.jpg" alt=hairstylist width=250 height=500>
+                <img class="team" src="imgs/hairstylistone.jpg" alt=hairstylist width=275 height=500>
                 <div class="text-over">
                     <h4>L E F T E Y E</h4>
                     <p>colourist</p>
@@ -101,7 +107,7 @@
             </div>
 
             <div class="stylist">
-                <img class="team"  src="imgs/hairstylisttwo.jpg" alt=hairstylist width=250 height=500>
+                <img class="team"  src="imgs/hairstylisttwo.jpg" alt=hairstylist width=275 height=500>
                 <div class="text-over">
                     <h4>T - B  O Z</h4>
                     <p>stylist</p>
@@ -109,7 +115,7 @@
             </div>
 
             <div class="beautician">
-                <img class="team" src="imgs/hairstylistthree.jpg" alt=hairstylist width=250 height=500>
+                <img class="team" src="imgs/hairstylistthree.jpg" alt=hairstylist width=275 height=500>
                 <div class="text-over">
                     <h4>C H I L L I</h4>
                     <p>beautician</p>
@@ -120,8 +126,8 @@
     
         <!-- SECTION 4 -->
     <section class="background_imgtwo">
-            <span>COLOUR DAY OFFER!</span>
-            <h2>-10% ON HAIRCUT <br> COLOR AND HIGHLIGHT</h2>
+            <br><br><span class="moment">COLOUR DAY OFFER!</span>
+            <h2 class="moment">-10% ON HAIRCUT <br> COLOR AND HIGHLIGHT</h2>
             <a><button class="btn">- BOOK APPOINTMENT</button></a>
      </section>
     
@@ -135,7 +141,13 @@
             <img src="imgs/lookbook.jpg" class="imgs" alt=lookbook height=400px width=250px>
     </section>
 
+    <!-- FOOTER -->
 
-
+    <footer>
+        <a href="https://www.GitHub.com"><img src="./imgs/github.png" alt="GitHub" height=35px width=35px></a>
+        <a href="https://www.twitter.com"><img src="./imgs/twitter.png" alt="Twitter" height=30px width=35px></a>
+        <a href="https://www.Instagram.com"><img src="./imgs/insta.png" alt="Instagram" height=30px width=30px></a>
+        <a href="https://www.linkedin.com/"><img src="./imgs/linkedin.png" alt=LinkedIn height=30px width=30px></a>
+    </footer>
 </body>
 </html>
