@@ -3,6 +3,20 @@ body, html {
     margin: 0px;
 }
 
+/* CLEAR FIX HACK */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
 /* HEADER */
 header {
     background-color: rgb(232, 234, 231);
@@ -174,12 +188,69 @@ img {
 /* MEDIA QUERY **********************************/
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px) {
+
+    body, html  {
+        margin: 0;
+        padding: 0;
+    }
+    .background_img, .background_imgtwo {
+        width: 100%;
+    }
+
+    /* MAKE YOUR OWN SEC */
+
+    .onehalf {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .twohalf {
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .salon {
+        width: 100%;
+        padding: 0px;
+    }
+
+    /* STYLIST */
+
+    .gridtwo {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .team {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* LOOKBOOK */
+
+    .imgs {
+        text-align: center;
+        width: 100%;
+        height: 25%;
+        padding: 0;
+    }
+
+    .text-over {
+        width: 100%;
+        font-size: 28px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    header, main, .background_img, .background_imgtwo, .grid, .gridtwo, section, .products, .container {
+@media all screen and (min-width: 600px) {
+    header, .background_img, section, .background_imgtwo {
         width: 100%;
     }
 }
