@@ -370,5 +370,9 @@ footer {
         width: 100%;
         font-size: 28px;
     }
+
+    footer {
+        width: 100%;
+    }
 }
 
